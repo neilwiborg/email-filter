@@ -28,5 +28,11 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.idea/
+.vscode/
+
+# End GitHub template
+
+# Ignore binaries, but not the main package
+email-filter
+!/cmd/email-filter/
